@@ -1,0 +1,62 @@
+.card {
+  box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.1568627451);
+  margin: 2rem;
+  width: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card.active {
+  border: 1px solid red;
+}
+.card :hover {
+  background-color: aliceblue;
+}
+.card p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.card div {
+  border: 1px solid gray;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input {
+  box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.1568627451);
+}
+
+ul {
+  list-style: disc;
+}
+ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol {
+  list-style: none;
+}
+ol li {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=settings.css.map */

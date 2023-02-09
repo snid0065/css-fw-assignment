@@ -1,0 +1,11 @@
+@mixin flex-start($value: center) {
+  @if ($value == center) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  } @else {
+    display: flex;
+    justify-content: flex-start;
+    align-items: $value;
+  }
+}

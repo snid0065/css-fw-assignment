@@ -1,0 +1,36 @@
+@import "./variables";
+//h1, h2, h3, h4, h5, h6
+// input, a, ul, ol, li, p, button
+h1 {
+  font-weight: 900;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-weight: 700;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input {
+  box-shadow: $base-box-shadow;
+}
+ul {
+  list-style: disc;
+  li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+ol {
+  list-style: none;
+  li {
+    font-weight: 700;
+  }
+}

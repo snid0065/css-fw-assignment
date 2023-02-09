@@ -1,0 +1,10 @@
+@use "card";
+@use "baseStyles";
+@import "./variables.scss";
+body {
+  background-color: $base-grey;
+
+  .outter-div {
+    border: 2px dashed darkgoldenrod;
+  }
+}
