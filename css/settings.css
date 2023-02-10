@@ -1,40 +1,32 @@
-.card {
-  box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.1568627451);
-  margin: 2rem;
-  width: 10rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  font-size: medium;
+  background-color: #00B4D8;
 }
-.card.active {
-  border: 1px solid red;
-}
-.card :hover {
-  background-color: aliceblue;
-}
-.card p {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-.card div {
-  border: 1px solid gray;
+a:hover {
+  color: #CAF0F8;
+  background-color: #03045E;
+  
 }
 
 h1 {
   font-weight: 900;
   font-size: larger;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: medium;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -43,6 +35,7 @@ p {
 
 input {
   box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.1568627451);
+  margin: 5px;
 }
 
 ul {
@@ -59,4 +52,88 @@ ol li {
   font-weight: 700;
 }
 
-/*# sourceMappingURL=settings.css.map */
+button {
+  background-color: #03045E;
+  color: white;
+  border-color: #CAF0F8;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: medium;
+}
+
+button:hover {
+  color: white;
+  background-color: #00B4D8;
+}
+table, th, td {
+  border: 1px solid #00B4D8;
+  margin-top: 30px;
+}
+
+body {
+  margin-left: 25px;
+  background-color: #CAF0F8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .outter-div {
+  border: 2px dashed darkgoldenrod;
+}
+
+
+/*UTILITY CLASSES*/
+
+
+.padding {
+  padding: 5px;
+}
+
+.margin {
+  margin: 5px;
+}
+
+.pink10 {
+  color:#FFC6D7;
+  font-weight: 1000;
+  font-size: larger;
+  margin: 10px;
+  padding: 10px;
+  border: 2px #FF759F;
+  border-radius: 10px;
+}
+
+.purple15 {
+  color:#E9C9F2;
+  font-weight: 1000;
+  font-size: larger;
+  margin: 15px;
+  padding: 15px;
+  border: 4px #611F73;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*
+
+BLUE
+#03045E
+#00B4D8
+#0077B6
+#90E0EF
+#CAF0F8
+
+PINK
+#FF759F
+#FFA0BD
+#FFC6D7
+#FFE5EC
+#FFF8F9
+
+PURPLE
+#611F73
+#76278C
+#A33FBF
+#C98FD9
+#E9C9F2
+
+*/

@@ -1,36 +1,138 @@
 @import "./variables";
 //h1, h2, h3, h4, h5, h6
 // input, a, ul, ol, li, p, button
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  font-size: medium;
+  background-color: $base-background-color;
+}
+a:hover {
+  color: $base-blue;
+  background-color: #03045E;
+  
+}
+
 h1 {
   font-weight: 900;
   font-size: larger;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: medium;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Optima", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 input {
   box-shadow: $base-box-shadow;
+  margin: 5px;
 }
+
 ul {
   list-style: disc;
-  li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 }
+ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ol {
   list-style: none;
-  li {
-    font-weight: 700;
-  }
 }
+ol li {
+  font-weight: 700;
+}
+
+button {
+  background-color: #03045E;
+  color: white;
+  border-color: $base-blue;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: medium;
+}
+
+button:hover {
+  color: white;
+  background-color: $base-background-color;
+}
+table, th, td {
+  border: 1px solid $base-background-color;
+  margin-top: 30px;
+}
+
+body {
+  margin-left: 25px;
+  background-color: $base-blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*UTILITY CLASSES*/
+
+
+.padding {
+  padding: 5px;
+}
+
+.margin {
+  margin: 5px;
+}
+
+.pink10 {
+  color:$pink-background-color;
+  font-weight: 1000;
+  font-size: larger;
+  margin: 10px;
+  padding: 10px;
+  border: 2px $pink-box-shadow;
+  border-radius: 10px;
+}
+
+.purple15 {
+  color:$purple-bk;
+  font-weight: 1000;
+  font-size: larger;
+  margin: 15px;
+  padding: 15px;
+  border: 4px $purple-box-shadow;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*
+
+BLUE
+#03045E
+#00B4D8
+#0077B6
+#90E0EF
+#CAF0F8
+
+PINK
+#FF759F
+#FFA0BD
+#FFC6D7
+#FFE5EC
+#FFF8F9
+
+PURPLE
+#611F73
+#76278C
+#A33FBF
+#C98FD9
+#E9C9F2
+
+*/
